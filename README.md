@@ -1,8 +1,7 @@
 ### Project Overview
 The project aims to analyze the performance of a digital campaign by examining key metrics like conversion rates, bounce rates, and channels. Through thorough data analysis, insights were derived to optimize future campaign strategies and enhance overall marketing efficiencies.
 
-![digital_campaign_dashboard](https://github.com/zinnydigits/digital_campaign/assets/53875635/f19b4dbd-fe02-4031-8455-58e769176e25)
-
+![digitalcampaign_dashboard](https://github.com/zinnydigits/digital_campaign/assets/53875635/c7b101c4-8f1a-43ba-b394-d4d46fd3f70d)
 
 ### Data Source
 The data was obtained from [absentdata.com](https://absentdata.com/data-analysis/where-to-find-data/).
@@ -11,6 +10,13 @@ The data was obtained from [absentdata.com](https://absentdata.com/data-analysis
 - **Microsoft Excel:** Used for data preprocessing and initial analysis.
 - **Power Query:** Part of the Microsoft Power BI suite, Power Query is used for data cleaning, transformation, and integration.
 - **Power BI for Visualization:** Power BI is a powerful data visualization tool that enables the creation of interactive dashboards and reports. It's used here to visualize the analyzed data in a clear and insightful manner.
+
+### Code
+```  Total Conversion =
+                        IF (SUM(full_web[Conversions]) >= 1000,
+                        FORMAT(SUM(full_web[Conversions])/1000, "0.00") & "K",
+                        FORMAT(SUM(full_web[Conversions]), "0"))
+```
 
 ### Visualization
 - **Charts used:** Bar charts, column charts, funnel charts, line charts, and a pie chart was used as a tooltip for the funnel chart.

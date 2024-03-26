@@ -1,5 +1,5 @@
 ### Project Overview
-The project aims to analyze the performance of a digital campaign by examining key metrics like conversion rates, bounce rates, and channels. Through thorough data analysis, insights will be derived to optimize future campaign strategies and enhance overall marketing efficiencies.
+The project aims to analyze the performance of a digital campaign by examining key metrics like conversion rates, bounce rates, and channels. Through thorough data analysis, insights were derived to optimize future campaign strategies and enhance overall marketing efficiencies.
 
 ![digital_campaign_dashboard](https://github.com/zinnydigits/digital_campaign/assets/53875635/f19b4dbd-fe02-4031-8455-58e769176e25)
 
